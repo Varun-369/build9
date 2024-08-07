@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/icon.png" type="image/gif" sizes="16x16">
+    <title>Built9</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Archi is best selling interior design website template with responsive stunning design">
+    <meta name="keywords" content="architecture,building,business,bootstrap,creative,exterior design,furniture design,gallery,garden design,house,interior design,landscape design,multipurpose,onepage,portfolio,studio">
+    <meta name="author" content="">
+
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap" />
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/color.css" rel="stylesheet" type="text/css">
+
+    <!-- custom background -->
+    <link rel="stylesheet" href="css/bg.css" type="text/css">
+
+    <!-- color scheme -->
+	<link rel="stylesheet" href="css/colors/yellow.css" type="text/css" id="colors">
+    
+
+
+</head>
+
+<body class="page-contact">
+
+    <div id="wrapper">
+        <!-- header begin -->
+        <header>
+            
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                    	<div class="md-flex">
+	                        <!-- logo begin -->
+	                        <div id="logo">
+	                            <a href="index.html">
+	                                <img class="logo" src="images/logo (1).png" alt="">
+	                            </a>
+	                        </div>
+	                        <!-- logo close -->
+
+	                        <!-- small button begin -->
+	                        <span id="menu-btn"></span>
+	                        <!-- small button close -->
+
+	                        <!-- mainmenu begin -->
+                        	<div class="md-flex-col">
+								<nav class="md-flex">
+									<ul id="mainmenu">
+										<li><a href="index.html">Home<span></span></a>
+
+										</li>
+										<li><a href="about.html">About Us</a>
+
+										</li>
+										<li><a href="project.html">Projects</a>
+
+										</li>
+										<li><a href="services.html">Services</a>
+
+										</li>
+										<!-- <li><a href="blog.html">Blog</a>
+
+										</li> -->
+										<li><a href="contact.html">Contact</a>
+
+										</li>
+									</ul>
+								</nav>
+								<!-- mainmenu close -->
+							</div>
+
+							<div class="md-flex-col col-extra">
+								<a href="contact.html" class="btn-on-header btn-line">Get Quote</a>
+							</div>
+						</div>
+					</div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+
+        <!-- subheader -->
+        <section id="subheader" data-speed="8" data-type="background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Contact</h1>
+                        <ul class="crumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="sep">/</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- subheader close -->
+
+        <!-- content begin -->
+        <div id="content" class="no-top">
+            <section id="de-map" aria-label="map-container">
+                <div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="map-container map-fullwidth">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.3355224019238!2d55.28852358297672!3d25.259296271626916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4315f4eed51f%3A0xe0a489c20509eb62!2sAl%20Zahra%20Techno%20Center!5e0!3m2!1sen!2sin!4v1723016724548!5m2!1sen!2sin" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+            </section>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-8">
+                        <form name="contactForm" id='contact_form' method="post">
+                            <div class="row">
+                            	<div class="col-md-12 mb10">
+                            		<h3>Send Us Message</h3>
+                            	</div>
+                                <div class="col-md-6">
+                                    <div id='name_error' class='error'>Please enter your name.</div>
+                                    <div>
+                                        <input type='text' name='Name' id='name' class="form-control" placeholder="Your Name" required>
+                                    </div>
+
+                                    <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
+                                    <div>
+                                        <input type='email' name='Email' id='email' class="form-control" placeholder="Your Email" required>
+                                    </div>
+
+                                    <div id='phone_error' class='error'>Please enter your phone number.</div>
+                                    <div>
+                                        <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div id='message_error' class='error'>Please enter your message.</div>
+                                    <div>
+                                        <textarea name='message' id='message' class="form-control" placeholder="Your Message" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="g-recaptcha" data-sitekey="copy-your-site-key-here"></div>
+                                    <p id='submit' class="mt20">
+                                        <input type='submit' id='send_message' value='Submit Form' class="btn btn-line">
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div id="success_message" class='success'>
+                            Your message has been sent successfully. Refresh this page if you want to send more messages.
+                        </div>
+                        <div id="error_message" class='error'>
+                        	Sorry there was an error sending your form.
+                        </div>
+
+                    </div>
+
+                    <div id="sidebar" class="col-md-4">
+
+                        <div class="widget widget_text">
+                            <h3>Contact Info</h3>
+                            <address>
+                                <span>607, AL ZAHRAA TECHNO CENTRE, Al - Raffa, Dubai</span>
+                                <span><strong>Phone:</strong> <a href="tel:+97143948677" > +97143948677</a></span>
+                               
+                                <span><strong>Email:</strong><a href="mailto:info@built9.ae">info@built9.ae</a></span>
+
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer begin -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img src="images/logo (1).png" class="logo-small" alt=""><br>A construction company
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="widget widget_recent_post">
+                            <h3>Company</h3>
+                            <ul>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="image-gallery.html">Image Gallery</a></li>
+                                <!-- <li><a href="blog.html">Blog</a></li> -->
+                                <li><a href="Project.html">Project</a></li>
+                               <li><a href="contact.html">Contact Us</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h3>Contact Us</h3>
+                        <div class="widget widget-address">
+							<address>
+                                <span>607, AL ZAHRAA TECHNO CENTRE, Al - Raffa, Dubai</span>
+                                <span><strong>Phone:</strong> <a href="tel:+97143948677" style="color: white;"> +97143948677</a></span>
+                                
+                                <span><strong>Email:</strong><a href="mailto:info@built9.ae" style="color: white;">info@built9.ae</a></span>
+
+                            </address>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div class="widget widget_recent_post">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="mep-solutions.html">MEP Solution</a></li>
+                               <li><a href="design-build-solutions.html">Design Build Solution</a></li>
+                                 <li><a href="turnkey-construction.html">Turnkey Construction</a></li>
+                                
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+                            &copy; Copyright 2024 - Website by  <span
+                                class="id-color">Built-9</span>
+                        </div>
+						<div class="col-md-6 text-right">
+							<div class="social-icons">
+								<a href="https://www.facebook.com/profile.php?id=61559362631488"><i class="fa-brands fa-facebook-f"></i></a>
+								<a href="https://www.linkedin.com/company/built-9-contracting-llc/"><i class="fa-brands fa-linkedin"></i></a>
+								<a href="https://www.instagram.com/_built9?igsh=MW4ydTdlejdmbjlodQ=="><i class="fa-brands fa-instagram"></i></a>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <a href="#" id="back-to-top"></a>
+        </footer>
+        <!-- footer close -->
+
+    </div>
+
+
+
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+    <script src="form.js"></script>
+    
+    <!-- SLIDER REVOLUTION SCRIPTS  -->
+    <script src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>    
+
+</body>
+
+</html>
