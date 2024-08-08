@@ -185,7 +185,7 @@ overflow:visible;
 /* ================================================== */
 	header {
 	width: 100%;
-	height: 80px;
+	height: 100px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -315,7 +315,7 @@ overflow:visible;
 	top:0px;
 	}
 	header.smaller:not(.header-bottom):not(.side-header):not(.force-header-mobile):not(.header-s2){
-	height: 70px;
+	height: 100px;
 	background:#18191b;
 	}
 	header.header-light.smaller:not(.header-bottom):not(.side-header):not(.force-header-mobile):not(.header-s2){
